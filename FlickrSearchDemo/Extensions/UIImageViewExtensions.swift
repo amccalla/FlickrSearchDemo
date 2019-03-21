@@ -10,6 +10,9 @@ import Foundation
 import UIKit
 import SDWebImage
 
+//Provides way to download & cache images via ImageViews asynchronously
+//
+
 extension UIImageView {
     @nonobjc func setImageAndShowLoading(with urlString: String?, usingActivityIndicatorStyle style: UIActivityIndicatorView.Style = .gray) {
         if let url = URL(string: urlString ?? "") {

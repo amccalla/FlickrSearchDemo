@@ -10,6 +10,7 @@ import UIKit
 
 class StoredSearchTermTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var chevronLabel: UILabel!
     @IBOutlet weak var searchTermLabel: UILabel!
     
 }
